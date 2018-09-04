@@ -102,8 +102,8 @@
       </execution>
    </executions>
    <configuration>
-      <serverId>id</serverId>
-      <nexusUrl>http://localhost:8082/nexus-2.14.9-01</nexusUrl>
+      <serverId>thirdparty</serverId>
+      <nexusUrl>http://localhost:8082/nexus-2.14.9-01/content/repositories/thirdpart</nexusUrl>
       <skipStaging>true</skipStaging>
    </configuration>
 </plugin>
